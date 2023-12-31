@@ -12,7 +12,7 @@ pubg.onEvent = function (event, arg)
 	
 	-- 前进键盘负责开启和关闭
 	if event == "MOUSE_BUTTON_PRESSED" and arg == 2 then
-        EnablePrimaryMouseButtonEvents(true)
+            EnablePrimaryMouseButtonEvents(true)
 	elseif event == "MOUSE_BUTTON_RELEASED" and arg == 2 then
 	    EnablePrimaryMouseButtonEvents(false)
 	end
