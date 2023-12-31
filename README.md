@@ -36,3 +36,6 @@ function OnEvent(event, arg)
 end
 
 ```
+
+
+[罗技鼠标宏api文档](https://consolelog.gitee.io/docs-logitech/docs-logitech/v8.45/Reference/OnEvent.html)
