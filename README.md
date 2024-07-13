@@ -9,7 +9,7 @@ local PUBG = {}
 
 PUBG.SLEEP_TIME = 20    -- 间隔时间 毫秒
 PUBG.MOVE_SENSITIVE = 5 -- 下拖灵敏度 像素
-PUBG.MAX_TIME = 3 * 1000 --- 开枪最大可持续时间 毫秒
+PUBG.MAX_TIME = 5 * 1000 --- 开枪最大可持续时间 毫秒
 
 PUBG.dragMouse = function()
     local maxIndex = PUBG.MAX_TIME / PUBG.SLEEP_TIME
